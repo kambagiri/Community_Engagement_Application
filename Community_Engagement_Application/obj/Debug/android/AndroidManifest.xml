@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Community_Engagement_Application.Community_Engagement_Application">
+  <uses-sdk android:minSdkVersion="17" />
+  <application android:label="Community_Engagement_Application" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Community Engagement Application" android:name="community_engagement_application.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Community Engagement Application" android:name="community_engagement_application.Data_Entry_Activity" />
+    <activity android:label="Community Engagement Application" android:name="community_engagement_application.DataEntry_OOI" />
+    <activity android:label="Community Engagement Application" android:name="community_engagement_application.DataEntry_Intersection" />
+    <activity android:label="DataEntry_TrafficLight" android:name="community_engagement_application.DataEntry_TrafficLight" />
+    <activity android:label="DataEntry_Walkway" android:name="community_engagement_application.DataEntry_Walkway" />
+    <activity android:label="DataEntry_Shop" android:name="community_engagement_application.DataEntry_Shop" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Community_Engagement_Application.Community_Engagement_Application.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Community_Engagement_Application.Community_Engagement_Application" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

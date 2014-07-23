@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nature">
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <Button
+        android:text="Get Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginTop="28.2dp"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_gravity="fill" />
+    <Button
+        android:text="Data Entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/Androidgreen">
+    <TextView
+        android:text="Data Entry Form"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="10.0dp" />
+    <TextView
+        android:text="Enter the Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginTop="20.0dp" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView1"
+        android:freezesText="false" />
+    <TextView
+        android:text="Enter the Date: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginLeft="10.0dp" />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker1" />
+    <Button
+        android:text="Continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Continue"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+</LinearLayout>

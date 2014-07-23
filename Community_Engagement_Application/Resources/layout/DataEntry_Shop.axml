@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1"
+    p1:background="@drawable/Androidgreen">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1">
+        <TextView
+            p1:text="Enter the Shop Details"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView1"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="Enter the Shop Name "
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView7"
+            p1:layout_marginLeft="10dp"
+            p1:layout_marginTop="10dp" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText6"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="Street 1"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView2"
+            p1:layout_marginLeft="10dp"
+            p1:layout_marginTop="10dp" />
+        <EditText
+            p1:inputType="textPostalAddress"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText1"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="Street 2"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView3"
+            p1:layout_marginLeft="10dp" />
+        <EditText
+            p1:inputType="textPostalAddress"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText2"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="City"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView4"
+            p1:layout_marginLeft="10dp" />
+        <EditText
+            p1:inputType="textPostalAddress"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText3"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="State"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView5"
+            p1:layout_marginLeft="10dp" />
+        <EditText
+            p1:inputType="textPostalAddress"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText4"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="Special Notes"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/textView6"
+            p1:layout_marginLeft="10dp"
+            p1:layout_marginTop="10dp" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/editText5"
+            p1:layout_marginLeft="10dp"
+            p1:layout_marginBottom="10dp" />
+        <Button
+            p1:text="Submit"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button1"
+            p1:layout_marginLeft="50dp"
+            p1:layout_marginRight="50dp" />
+    </LinearLayout>
+</ScrollView>
